@@ -5,6 +5,8 @@ draft: false
 tags:
   - ubuntu
   - apt
+categories:
+  - ubuntu
 ---
 
 # 概述
@@ -40,8 +42,9 @@ Codename:	focal
 - Ubuntu 20.04：`focal`
 - Ubuntu 18.04：`bionic`
 
-> 我在这边踩过一次坑，我用的是 20.04 版本，版本代号应该为 `focal`，但是修改源时使用了 18.04 的代号 `bionic`，导致后面在安装软件时遇到各种报错信息，通过排查才知道是自己版本代号配置错了。
-
+{{< admonition type=note open=true >}}
+我在这边踩过一次坑，我用的是 20.04 版本，版本代号应该为 `focal`，但是修改源时使用了 18.04 的代号 `bionic`，导致后面在安装软件时遇到各种报错信息，通过排查才知道是自己版本代号配置错了。
+{{< /admonition >}}
 
 # 编辑新的 apt 配置文件
 
