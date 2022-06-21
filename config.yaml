@@ -269,9 +269,16 @@ params:
       enable: true
       # Disqus comment config
       disqus:
-        enable: true
+        enable: false
         # disqus shortname to use Disqus
         shortname: 
+      utterances:
+        enable: true
+        repo: ChenYi015/chenyi015.github.io
+        issueTerm: pathname
+        label: comment
+        lightTheme: github-light
+        darkTheme: github-dark
   #  TypeIt config
   typeit:
     # typing speed between each step (measured in milliseconds)
